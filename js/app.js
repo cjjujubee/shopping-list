@@ -2,7 +2,8 @@ $(document).ready(function() {
 	$('#userInput').submit(function(event) {
 		event.preventDefault();
 		var something = $('#inputBox').val();
-		$('.allItems ul').append("<li class='currentItem'> <button><img class='checked' src='assets/check.png'/></button>" + something + "<button type='submit'><img src='assets/delete.png'/ class='trash'></button></li>");
+		$('.allItems ul').append("<li class='currentItem'> <img class='checked' src='assets/check.png'/>" + " " + something + " " + "<button type='submit'><img src='assets/delete.png'/ class='trash'></button></li>");
+		$('#userInput')[0].reset();
 	});
 
 });
