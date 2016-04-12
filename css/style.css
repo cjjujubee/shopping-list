@@ -7,6 +7,10 @@
 	width: 200px;
 }
 
-.allItems p {
+.allItems li {
 	text-align: left;
+}
+
+li {
+	list-style: none;
 }
