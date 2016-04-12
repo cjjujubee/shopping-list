@@ -8,8 +8,10 @@
 <body>
 	<div class="container">
 		<h1>Shopping List</h1>
-		<input type="text" value="eggs">
-
+		<form id="userInput">
+			<input type="text" id="newItem" value="" placeholder="Type in an item and hit Enter" size="30">
+			<button type="submit" id="addItem">Add Item</button>
+		</form>
 		<div class="allItems">
 			<ul>
 				<p>
@@ -27,5 +29,7 @@
 			</ul>
 		</div>
 	</div>
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>
