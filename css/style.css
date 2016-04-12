@@ -1,4 +1,12 @@
 .container {
-	display: relative;
-	margin: ;
+	text-align: center;
+}
+
+.allItems {
+	margin: 0 auto;
+	width: 200px;
+}
+
+.allItems p {
+	text-align: left;
 }
